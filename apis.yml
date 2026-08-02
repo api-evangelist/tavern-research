@@ -1,9 +1,26 @@
 aid: tavern-research
 name: Tavern Research
-description: Tavern Research is a company surfaced as a portfolio company of bloomberg-beta and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Tavern Research is a political opinion research and communications firm
+  that integrates polling, message testing, and original ad production for Democratic
+  campaigns and advocacy organizations. It pairs rapid survey research (marketed as
+  "insights in 48 hours"), AI-powered content creation, and large-scale creative experimentation
+  to learn which messages move voters, then produces and optimizes ads through placement.
+  Surfaced as a Bloomberg Beta portfolio company and added to the API Evangelist network;
+  the firm runs a marketing website on Squarespace and publishes no public API, developer
+  documentation, or SDKs at this time.
 url: https://raw.githubusercontent.com/api-evangelist/tavern-research/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static1.squarespace.com/static/686b269a2105425a3d1bd533/t/69cd429e0df9ed7cec5071d9/1775059614305/Tavern+Social+Image.png?format=1500w
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Political Research
+- Opinion Research
+- Polling
+- Message Testing
+- Advertising
+- Campaigns
+- Democratic Politics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +47,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://tavernresearch.com/
+  url: https://www.tavernresearch.com/
+- type: Blog
+  url: https://www.tavernresearch.com/research-and-writings
+- type: Support
+  url: https://www.tavernresearch.com/contact
+- type: PrivacyPolicy
+  url: https://www.tavernresearch.com/privacy-policy
+- type: DomainSecurity
+  url: security/tavern-research-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
